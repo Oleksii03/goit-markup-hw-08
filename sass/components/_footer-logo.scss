@@ -1,0 +1,14 @@
+.footer-logo {
+  font-family: var(--secondary-font);
+  @include font;
+  font-size: 24px;
+  line-height: calc(28 / 24);
+  color: var(--white-base-color);
+  margin: 0 0 20px 0;
+  display: inline-block;
+
+  @media screen and (min-width: 1200px) {
+    font-size: 26px;
+    line-height: calc(31 / 26);
+  }
+}

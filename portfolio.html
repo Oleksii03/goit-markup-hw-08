@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+  <link rel="stylesheet" href="css/main.min.css">
+  <title>WebStudio/portfolio</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__container container">
+      <nav class="header__menu menu">
+        <a href="./index.html" class="logo__link logo"><span>Web</span>Studio</a>
+        <ul class="menu__list">
+          <li class="menu__item"><a href="./index.html" class="menu__link">Студія</a></li>
+          <li class="menu__item"><a href="#" class="menu__link active">Портфоліо</a></li>
+          <li class="menu__item"><a href="#" class="menu__link">Контакти</a></li>
+        </ul>
+      </nav>
+      <ul class="header__contacts">
+        <li class="header-contacts__item"><a href="mailto:info@devstudio.com" class="header-contacts__link link--mail">
+            <svg class="contacts__icon icon--mail" width="16px" height="12px">
+              <use href="./images/icons.svg#envelope"></use>
+            </svg>
+            info@devstudio.com</a></li>
+        <li class="header-contacts__item"><a href="tel:+380961111111" class="header-contacts__link link--tel">
+            <svg class="contacts__icon icon--tel" width="10px" height="16px">
+              <use href="./images/icons.svg#smartphone"></use>
+            </svg>+38 096
+            111 11 11</a></li>
+      </ul>
+
+      <!-- MobMenu -->
+      <button class="mob-menu__btn mob-menu__btn_open" data-menu-open>
+        <svg class="mob-menu__burger" width="24" height="16">
+          <use href="./images/icons.svg#icon-burger"></use>
+        </svg>
+      </button>
+      <div class="mob-menu mob-menu_flex is-hidden" data-menu>
+        <div>
+          <button class="mob-menu__btn mob-menu__btn_close" data-menu-close>
+            <svg class="mob-menu__cross" width="40" height="40">
+              <use href="./images/icons.svg#icon-close"></use>
+            </svg>
+          </button>
+          <ul class="mob-menu-list list">
+            <li class="mob-menu-list__item">
+              <a class="mob-menu-list__link link" href="./index.html">Студия</a>
+            </li>
+            <li class="mob-menu-list__item">
+              <a class="mob-menu-list__link link active" href="./portfolio.html">Портфолио</a>
+            </li>
+            <li class="mob-menu-list__item">
+              <a class="mob-menu-list__link link" href="">Контакты</a>
+            </li>
+          </ul>
+        </div>
+        <div class="mob-menu-list__down">
+          <a class="mob-menu-list__tell link" href="tel:+380961111111">
+            +38 096 111 11 11</a>
+          <a class="mob-menu-list__mail link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          <ul class="mob-menu-list__social list">
+            <li class="mob-menu-list__social-item">Instagram</li>
+            <li class="mob-menu-list__social-item">Twitter</li>
+            <li class="mob-menu-list__social-item">Facebook</li>
+            <li class="mob-menu-list__social-item">LinkedIn</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="page__portfolio portfolio">
+    <section class="ourworks section">
+      <div class="ourworks__container container">
+        <h2 class="ourworks__title--hidden title-block">Наші роботи</h2>
+        <ul class="ourworks-list__buttons buttons">
+          <li class="buttons__item"><button class="btn" type="button">Усі</button></li>
+          <li class="buttons__item"><button class="btn" type="button">Веб-сайти</button></li>
+          <li class="buttons__item"><button class="btn" type="button">Додатки</button></li>
+          <li class="buttons__item"><button class="btn" type="button">Дизайн</button></li>
+          <li class="buttons__item"><button class="btn" type="button">Маркетинг</button></li>
+        </ul>
+
+        <ul class="ourworks-cards__list">
+          <li class="ourworks-card__item">
+            <a class="ourworks-card__link" href="#" target="_blank">
+              <div class="ourworks-card__overlay">
+                <img srcset="./images/portfolio/portfolio1@2x.jpg 2x" class="ourworks-card__img"
+                  src="images/portfolio/portfolio1.jpg" alt="Технокряк" width="370">
+                <p class="overlay-card__text">
+                  Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
+                  відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
+                </p>
+              </div>
+              <div class="ourworks-card__content">
+                <h3 class="ourworks-card__title">Технокряк</h3>
+                <p class="ourworks-card__text">Веб-сайт</p>
+              </div>
+            </a>
+          </li>
+          <li class="ourworks-card__item">
+            <a class="ourworks-card__link" href="#" target="_blank">
+              <div class="ourworks-card__overlay">
+                <img srcset="./images/portfolio/portfolio2@2x.jpg 2x" class="ourworks-card__img"
+                  src="images/portfolio/portfolio2.jpg" alt="Постер New Orlean vs Golden Star" width="370">
+                <p class="overlay-card__text">
+                  Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
+                  відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
+                </p>
+              </div>
+              <div class="ourworks-card__content">
+                <h3 class="ourworks-card__title">Постер <span lang="en">New Orlean vs Golden Star</span></h3>
+                <p class="ourworks-card__text">Дизайн</p>
+              </div>
+            </a>
+          </li>
+          <li class="ourworks-card__item">
+            <a class="ourworks-card__link" href="#" target="_blank">
+              <div class="ourworks-card__overlay">
+                <img srcset="./images/portfolio/portfolio3@2x.jpg 2x" class="ourworks-card__img"
+                  src="images/portfolio/portfolio3.jpg" alt="Ресторан Seafood" width="370">
+                <p class="overlay-card__text">
+                  Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
+                  відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
+                </p>
+              </div>
+              <div class="ourworks-card__content">
+                <h3 class="ourworks-card__title">Ресторан <span lang="en">Seafood</span></h3>
+                <p class="ourworks-card__text">Додаток</p>
+              </div>
+            </a>
+          </li>
+          <li class="ourworks-card__item">
+            <a class="ourworks-card__link" href="#" target="_blank">
+              <div class="ourworks-card__overlay">
+                <img srcset="./images/portfolio/portfolio4@2x.jpg 2x" class="ourworks-card__img"
+                  src="images/portfolio/portfolio4.jpg" alt="" width="370">
+                <p class="overlay-card__text">
+                  Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
+                  відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
+                </p>
+              </div>
+              <div class="ourworks-card__content">
+                <h3 class="ourworks-card__title">Проєкт <span lang="en">Prime</span></h3>
+                <p class="ourworks-card__text">Маркетинг</p>
+              </div>
+            </a>
+          </li>
+          <li class="ourworks-card__item">
+            <a class="ourworks-card__link" href="#" target="_blank">
+              <div class="ourworks-card__overlay">
+                <img srcset="./images/portfolio/portfolio5@2x.jpg 2x" class="ourworks-card__img"
+                  src="images/portfolio/portfolio5.jpg" alt="Проєкт Boxes" width="370">
+                <p class="overlay-card__text">
+                  Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
+                  відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
+                </p>
+              </div>
+              <div class="ourworks-card__content">
+                <h3 class="ourworks-card__title">Проєкт <span lang="en">Boxes</span></h3>
+                <p class="ourworks-card__text">Додаток</p>
+              </div>
+            </a>
+          </li>
+          <li class="ourworks-card__item">
+            <a class="ourworks-card__link" href="#" target="_blank">
+              <div class="ourworks-card__overlay">
+                <img srcset="./images/portfolio/portfolio6@2x.jpg 2x" class="ourworks-card__img"
+                  src="images/portfolio/portfolio6.jpg" alt="Inspiration has no Borders" width="370">
+                <p class="overlay-card__text">
+                  Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
+                  відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
+                </p>
+              </div>
+              <div class="ourworks-card__content">
+                <h3 class="ourworks-card__title"><span lang="en">Inspiration has no Borders</span></h3>
+                <p class="ourworks-card__text">Веб-сайт</p>
+              </div>
+            </a>
+          </li>
+          <li class="ourworks-card__item">
+            <a class="ourworks-card__link" href="#" target="_blank">
+              <div class="ourworks-card__overlay">
+                <img srcset="./images/portfolio/portfolio7@2x.jpg 2x" class="ourworks-card__img"
+                  src="images/portfolio/portfolio7.jpg" alt="Видання Limited Edition" width="370">
+                <p class="overlay-card__text">
+                  Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
+                  відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
+                </p>
+              </div>
+              <div class="ourworks-card__content">
+                <h3 class="ourworks-card__title">Видання <span lang="en">Limited Edition</span></h3>
+                <p class="ourworks-card__text">Дизайн</p>
+              </div>
+            </a>
+          </li>
+          <li class="ourworks-card__item">
+            <a class="ourworks-card__link" href="#" target="_blank">
+              <div class="ourworks-card__overlay">
+                <img srcset="./images/portfolio/portfolio8@2x.jpg 2x" src="images/portfolio/portfolio8.jpg"
+                  class="ourworks-card__img" alt="Проєкт LAB" width="370">
+                <p class="overlay-card__text">
+                  Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
+                  відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
+                </p>
+              </div>
+              <div class="ourworks-card__content">
+                <h3 class="ourworks-card__title">Проєкт <span lang="en">LAB</span></h3>
+                <p class="ourworks-card__text">Маркетинг</p>
+              </div>
+            </a>
+          </li>
+          <li class="ourworks-card__item">
+            <a class="ourworks-card__link" href="#" target="_blank">
+              <div class="ourworks-card__overlay">
+                <img srcset="./images/portfolio/portfolio9@2x.jpg 2x" class="ourworks-card__img"
+                  src="images/portfolio/portfolio9.jpg" alt="Growing Business" width="370">
+                <p class="overlay-card__text">
+                  Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
+                  відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
+                </p>
+              </div>
+              <div class="ourworks-card__content">
+                <h3 class="ourworks-card__title"><span lang="en">Growing Business</span></h3>
+                <p class="ourworks-card__text">Додаток</p>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer__container container">
+      <div class="footer__info">
+        <a href="/" class="footer-logo logo__link "><span>Web</span>Studio</a>
+        <address class="footer__address address">
+          <ul class="address__list">
+            <li><a href="https://goo.gl/maps/fDBCQv3pAZJWur3u7" target="_blank" rel="noreferrer noopener nofollow"
+                class="address__link--white">м.Київ. пр-т Лесі Українки, 2б</a></li>
+            <li><a href="mailto:info@devstudio.com" class="address__link">info@devstudio.com</a></li>
+            <li><a href="tel:+380961111111" class="address__link">+38 096 111 11 11</a></li>
+          </ul>
+        </address>
+      </div>
+      <div class="footer__socials socials">
+        <p class="socials__title">приєднуйтесь</p>
+        <ul class="socials__list">
+          <li class="socials__item">
+            <a class="socials__link" href="#" target="_blank">
+              <svg class="socials__icon" width="20" height="20">
+                <use href="./images/icons.svg#instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="socials__item">
+            <a class="socials__link" href="#" target="_blank">
+              <svg class="socials__icon" width="20" height="20">
+                <use href="./images/icons.svg#twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="socials__item">
+            <a class="socials__link" href="#" target="_blank">
+              <svg class="socials__icon" width="20" height="20">
+                <use href="./images/icons.svg#facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="socials__item">
+            <a class="socials__link" href="#" target="_blank">
+              <svg class="socials__icon" width="20" height="20">
+                <use href="./images/icons.svg#linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!-- FOOTER-FORM -->
+      <form class="footer__form form">
+        <p class="footer-form__title">Підпишіться на розсилку</p>
+        <div class="footer-form__wrapper">
+          <input class="footer-form__email" type="email" name="useremail" placeholder="E-mail"
+            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+          <button class="footer-form__btn" type="submit">Підписатися
+            <svg class="footer-form__icon icon--check-mark" width="24" height="24">
+              <use href="./images/icons.svg#check-mark"></use>
+            </svg>
+            <svg class="footer-form__icon icon--send" width="24" height="24">
+              <use href="./images/icons.svg#icon-send"></use>
+            </svg>
+          </button>
+        </div>
+      </form>
+      <!--/ FOOTER-FORM -->
+    </div>
+  </footer>
+  <!--/ FOOTER -->
+  <script src="./js/mobile-menu.js"></script>
+</body>
+
+</html>

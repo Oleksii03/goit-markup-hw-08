@@ -1,0 +1,32 @@
+.logo {
+  font-family: var(--secondary-font);
+  @include font;
+  font-size: 24px;
+  line-height: calc(28 / 24);
+  padding: 16px 0;
+
+  &:not(:last-child) {
+    margin: 0 88px 0 0;
+  }
+
+  @media screen and (min-width: 768px) {
+    padding: 25px 0;
+  }
+
+  @media screen and (min-width: 1200px) {
+    font-size: 26px;
+    line-height: calc(31 / 26);
+
+    &:not(:last-child) {
+      margin: 0 93px 0 0;
+    }
+  }
+}
+
+.logo__link {
+  color: #000;
+
+  & span {
+    color: var(--blue-accent-color);
+  }
+}

@@ -1,0 +1,26 @@
+@import './base/common';
+@import './base/container';
+@import './base/section';
+
+@import './utils/variables';
+@import './utils/visually-hidden';
+@import './utils/mixins';
+
+@import './components/title-block';
+@import './components/logo';
+@import './components/footer-logo';
+@import './components/backdrop';
+@import './components/modal-window';
+@import './components/modal-form';
+@import './components/footer-form';
+@import './components/mob-menu';
+
+@import './layout/pages-main/page-header';
+@import './layout/pages-main/page-intro';
+@import './layout/pages-main/page-advantages';
+@import './layout/pages-main/page-whatwedo';
+@import './layout/pages-main/page-team';
+@import './layout/pages-main/page-clients';
+@import './layout/pages-main/page-footer';
+
+@import './layout/pages-portfolio/page-portfolio';
