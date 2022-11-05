@@ -80,7 +80,7 @@
       </div>
     </div>
   </header>
-
+  <!-- MAIN -->
   <main class="page__portfolio portfolio">
     <section class="ourworks section">
       <div class="ourworks__container container">
@@ -92,13 +92,24 @@
           <li class="buttons__item"><button class="btn" type="button">Дизайн</button></li>
           <li class="buttons__item"><button class="btn" type="button">Маркетинг</button></li>
         </ul>
-
+        <!-- PORTFOLIO -->
         <ul class="ourworks-cards__list">
           <li class="ourworks-card__item">
             <a class="ourworks-card__link" href="#" target="_blank">
               <div class="ourworks-card__overlay">
-                <img srcset="./images/portfolio/portfolio1@2x.jpg 2x" class="ourworks-card__img"
-                  src="images/portfolio/portfolio1.jpg" alt="Технокряк" width="370">
+                <picture>
+                  <source
+                    srcset="./images/portfolio/desctop/portfolio1.jpg 1x, ./images/portfolio/desctop/portfolio1@2x.jpg 2x"
+                    media="(min-width: 1200px)">
+
+                  <source
+                    srcset="./images/portfolio/tablet/tablet-portfolio1.jpg 1x, ./images/portfolio/tablet/tablet-portfolio1@2x.jpg 2x"
+                    media="(min-width: 768px)">
+
+                  <source
+                    srcset="./images/portfolio/mobile/mobile-portfolio1.jpg 1x, ./images/portfolio/mobile/mobile-portfolio1@2x.jpg 2x">
+                  <img class="ourworks-card__img" src="./images/portfolio/desctop/portfolio1.jpg" alt="Технокряк">
+                </picture>
                 <p class="overlay-card__text">
                   Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
                   відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
@@ -113,8 +124,20 @@
           <li class="ourworks-card__item">
             <a class="ourworks-card__link" href="#" target="_blank">
               <div class="ourworks-card__overlay">
-                <img srcset="./images/portfolio/portfolio2@2x.jpg 2x" class="ourworks-card__img"
-                  src="images/portfolio/portfolio2.jpg" alt="Постер New Orlean vs Golden Star" width="370">
+                <picture>
+                  <source
+                    srcset="./images/portfolio/desctop/portfolio2.jpg 1x, ./images/portfolio/desctop/portfolio2@2x.jpg 2x"
+                    media="(min-width: 1200px)">
+
+                  <source
+                    srcset="./images/portfolio/tablet/tablet-portfolio2.jpg 1x, ./images/portfolio/tablet/tablet-portfolio2@2x.jpg 2x"
+                    media="(min-width: 768px)">
+
+                  <source
+                    srcset="./images/portfolio/mobile/mobile-portfolio2.jpg 1x, ./images/portfolio/mobile/mobile-portfolio2@2x.jpg 2x">
+                  <img class="ourworks-card__img" src="./images/portfolio/desctop/portfolio2.jpg"
+                    alt="Постер New Orlean vs Golden Star">
+                </picture>
                 <p class="overlay-card__text">
                   Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
                   відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
@@ -129,8 +152,20 @@
           <li class="ourworks-card__item">
             <a class="ourworks-card__link" href="#" target="_blank">
               <div class="ourworks-card__overlay">
-                <img srcset="./images/portfolio/portfolio3@2x.jpg 2x" class="ourworks-card__img"
-                  src="images/portfolio/portfolio3.jpg" alt="Ресторан Seafood" width="370">
+                <picture>
+                  <source
+                    srcset="./images/portfolio/desctop/portfolio3.jpg 1x, ./images/portfolio/desctop/portfolio3@2x.jpg 2x"
+                    media="(min-width: 1200px)">
+
+                  <source
+                    srcset="./images/portfolio/tablet/tablet-portfolio3.jpg 1x, ./images/portfolio/tablet/tablet-portfolio3@2x.jpg 2x"
+                    media="(min-width: 768px)">
+
+                  <source
+                    srcset="./images/portfolio/mobile/mobile-portfolio3.jpg 1x, ./images/portfolio/mobile/mobile-portfolio3@2x.jpg 2x">
+                  <img class="ourworks-card__img" src="./images/portfolio/desctop/portfolio3.jpg"
+                    alt="Ресторан Seafood">
+                </picture>
                 <p class="overlay-card__text">
                   Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
                   відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
@@ -145,8 +180,19 @@
           <li class="ourworks-card__item">
             <a class="ourworks-card__link" href="#" target="_blank">
               <div class="ourworks-card__overlay">
-                <img srcset="./images/portfolio/portfolio4@2x.jpg 2x" class="ourworks-card__img"
-                  src="images/portfolio/portfolio4.jpg" alt="" width="370">
+                <picture>
+                  <source
+                    srcset="./images/portfolio/desctop/portfolio4.jpg 1x, ./images/portfolio/desctop/portfolio4@2x.jpg 2x"
+                    media="(min-width: 1200px)">
+
+                  <source
+                    srcset="./images/portfolio/tablet/tablet-portfolio4.jpg 1x, ./images/portfolio/tablet/tablet-portfolio4@2x.jpg 2x"
+                    media="(min-width: 768px)">
+
+                  <source
+                    srcset="./images/portfolio/mobile/mobile-portfolio4.jpg 1x, ./images/portfolio/mobile/mobile-portfolio4@2x.jpg 2x">
+                  <img class="ourworks-card__img" src="./images/portfolio/desctop/portfolio4.jpg" alt="Проєкт Prime">
+                </picture>
                 <p class="overlay-card__text">
                   Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
                   відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
@@ -161,8 +207,19 @@
           <li class="ourworks-card__item">
             <a class="ourworks-card__link" href="#" target="_blank">
               <div class="ourworks-card__overlay">
-                <img srcset="./images/portfolio/portfolio5@2x.jpg 2x" class="ourworks-card__img"
-                  src="images/portfolio/portfolio5.jpg" alt="Проєкт Boxes" width="370">
+                <picture>
+                  <source
+                    srcset="./images/portfolio/desctop/portfolio5.jpg 1x, ./images/portfolio/desctop/portfolio5@2x.jpg 2x"
+                    media="(min-width: 1200px)">
+
+                  <source
+                    srcset="./images/portfolio/tablet/tablet-portfolio5.jpg 1x, ./images/portfolio/tablet/tablet-portfolio5@2x.jpg 2x"
+                    media="(min-width: 768px)">
+
+                  <source
+                    srcset="./images/portfolio/mobile/mobile-portfolio5.jpg 1x, ./images/portfolio/mobile/mobile-portfolio5@2x.jpg 2x">
+                  <img class="ourworks-card__img" src="./images/portfolio/desctop/portfolio5.jpg" alt="Проєкт Boxes">
+                </picture>
                 <p class="overlay-card__text">
                   Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
                   відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
@@ -177,8 +234,20 @@
           <li class="ourworks-card__item">
             <a class="ourworks-card__link" href="#" target="_blank">
               <div class="ourworks-card__overlay">
-                <img srcset="./images/portfolio/portfolio6@2x.jpg 2x" class="ourworks-card__img"
-                  src="images/portfolio/portfolio6.jpg" alt="Inspiration has no Borders" width="370">
+                <picture>
+                  <source
+                    srcset="./images/portfolio/desctop/portfolio6.jpg 1x, ./images/portfolio/desctop/portfolio6@2x.jpg 2x"
+                    media="(min-width: 1200px)">
+
+                  <source
+                    srcset="./images/portfolio/tablet/tablet-portfolio6.jpg 1x, ./images/portfolio/tablet/tablet-portfolio6@2x.jpg 2x"
+                    media="(min-width: 768px)">
+
+                  <source
+                    srcset="./images/portfolio/mobile/mobile-portfolio6.jpg 1x, ./images/portfolio/mobile/mobile-portfolio6@2x.jpg 2x">
+                  <img class="ourworks-card__img" src="./images/portfolio/desctop/portfolio6.jpg"
+                    alt="Inspiration has no Borders">
+                </picture>
                 <p class="overlay-card__text">
                   Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
                   відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
@@ -193,8 +262,20 @@
           <li class="ourworks-card__item">
             <a class="ourworks-card__link" href="#" target="_blank">
               <div class="ourworks-card__overlay">
-                <img srcset="./images/portfolio/portfolio7@2x.jpg 2x" class="ourworks-card__img"
-                  src="images/portfolio/portfolio7.jpg" alt="Видання Limited Edition" width="370">
+                <picture>
+                  <source
+                    srcset="./images/portfolio/desctop/portfolio7.jpg 1x, ./images/portfolio/desctop/portfolio7@2x.jpg 2x"
+                    media="(min-width: 1200px)">
+
+                  <source
+                    srcset="./images/portfolio/tablet/tablet-portfolio7.jpg 1x, ./images/portfolio/tablet/tablet-portfolio7@2x.jpg 2x"
+                    media="(min-width: 768px)">
+
+                  <source
+                    srcset="./images/portfolio/mobile/mobile-portfolio7.jpg 1x, ./images/portfolio/mobile/mobile-portfolio7@2x.jpg 2x">
+                  <img class="ourworks-card__img" src="./images/portfolio/desctop/portfolio7.jpg"
+                    alt="Видання Limited Edition">
+                </picture>
                 <p class="overlay-card__text">
                   Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
                   відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
@@ -209,8 +290,19 @@
           <li class="ourworks-card__item">
             <a class="ourworks-card__link" href="#" target="_blank">
               <div class="ourworks-card__overlay">
-                <img srcset="./images/portfolio/portfolio8@2x.jpg 2x" src="images/portfolio/portfolio8.jpg"
-                  class="ourworks-card__img" alt="Проєкт LAB" width="370">
+                <picture>
+                  <source
+                    srcset="./images/portfolio/desctop/portfolio8.jpg 1x, ./images/portfolio/desctop/portfolio8@2x.jpg 2x"
+                    media="(min-width: 1200px)">
+
+                  <source
+                    srcset="./images/portfolio/tablet/tablet-portfolio8.jpg 1x, ./images/portfolio/tablet/tablet-portfolio8@2x.jpg 2x"
+                    media="(min-width: 768px)">
+
+                  <source
+                    srcset="./images/portfolio/mobile/mobile-portfolio8.jpg 1x, ./images/portfolio/mobile/mobile-portfolio8@2x.jpg 2x">
+                  <img class="ourworks-card__img" src="./images/portfolio/desctop/portfolio8.jpg" alt="Проєкт LAB">
+                </picture>
                 <p class="overlay-card__text">
                   Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
                   відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
@@ -225,8 +317,20 @@
           <li class="ourworks-card__item">
             <a class="ourworks-card__link" href="#" target="_blank">
               <div class="ourworks-card__overlay">
-                <img srcset="./images/portfolio/portfolio9@2x.jpg 2x" class="ourworks-card__img"
-                  src="images/portfolio/portfolio9.jpg" alt="Growing Business" width="370">
+                <picture>
+                  <source
+                    srcset="./images/portfolio/desctop/portfolio9.jpg 1x, ./images/portfolio/desctop/portfolio9@2x.jpg 2x"
+                    media="(min-width: 1200px)">
+
+                  <source
+                    srcset="./images/portfolio/tablet/tablet-portfolio9.jpg 1x, ./images/portfolio/tablet/tablet-portfolio9@2x.jpg 2x"
+                    media="(min-width: 768px)">
+
+                  <source
+                    srcset="./images/portfolio/mobile/mobile-portfolio9.jpg 1x, ./images/portfolio/mobile/mobile-portfolio9@2x.jpg 2x">
+                  <img class="ourworks-card__img" src="./images/portfolio/desctop/portfolio9.jpg"
+                    alt="Growing Business">
+                </picture>
                 <p class="overlay-card__text">
                   Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
                   відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
