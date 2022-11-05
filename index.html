@@ -42,42 +42,45 @@
           <use href="./images/icons.svg#icon-burger"></use>
         </svg>
       </button>
-      <div class="mob-menu mob-menu_flex is-hidden" data-menu>
-        <div>
-          <button class="mob-menu__btn mob-menu__btn_close" data-menu-close>
-            <svg class="mob-menu__icon mob-menu__icon_cross" width="40" height="40">
-              <use href="./images/icons.svg#icon-close"></use>
-            </svg>
-          </button>
-          <ul class="mob-menu-list list">
-            <li class="mob-menu-list__item">
-              <a class="mob-menu-list__link active" href="./index.html">Студія</a>
-            </li>
-            <li class="mob-menu-list__item">
-              <a class="mob-menu-list__link" href="./portfolio.html">Портфоліо</a>
-            </li>
-            <li class="mob-menu-list__item">
-              <a class="mob-menu-list__link" href="">Контакти</a>
-            </li>
-          </ul>
-        </div>
-        <div class="mob-menu-list__down">
-          <ul class="mob-menu-list__contacts">
-            <li class="mob-menu-list__contacts-item"><a class="mob-menu-list__tell" href="tel:+380961111111">
-                +38 096 111 11 11</a>
-            </li>
-            <li class="mob-menu-list__contacts-item">
-              <a class="mob-menu-list__mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
-            </li>
-          </ul>
-          <ul class="mob-menu-list__social">
-            <li class="mob-menu-list__social-item">Instagram</li>
-            <li class="mob-menu-list__social-item">Twitter</li>
-            <li class="mob-menu-list__social-item">Facebook</li>
-            <li class="mob-menu-list__social-item">LinkedIn</li>
-          </ul>
+      <div class="mob-menu_container">
+        <div class="mob-menu mob-menu_flex is-hidden" data-menu>
+          <div>
+            <button class="mob-menu__btn mob-menu__btn_close" data-menu-close>
+              <svg class="mob-menu__icon mob-menu__icon_cross" width="40" height="40">
+                <use href="./images/icons.svg#icon-close"></use>
+              </svg>
+            </button>
+            <ul class="mob-menu-list list">
+              <li class="mob-menu-list__item">
+                <a class="mob-menu-list__link active" href="./index.html">Студія</a>
+              </li>
+              <li class="mob-menu-list__item">
+                <a class="mob-menu-list__link" href="./portfolio.html">Портфоліо</a>
+              </li>
+              <li class="mob-menu-list__item">
+                <a class="mob-menu-list__link" href="">Контакти</a>
+              </li>
+            </ul>
+          </div>
+          <div class="mob-menu-list__down">
+            <ul class="mob-menu-list__contacts">
+              <li class="mob-menu-list__contacts-item"><a class="mob-menu-list__tell" href="tel:+380961111111">
+                  +38 096 111 11 11</a>
+              </li>
+              <li class="mob-menu-list__contacts-item">
+                <a class="mob-menu-list__mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
+              </li>
+            </ul>
+            <ul class="mob-menu-list__social">
+              <li class="mob-menu-list__social-item">Instagram</li>
+              <li class="mob-menu-list__social-item">Twitter</li>
+              <li class="mob-menu-list__social-item">Facebook</li>
+              <li class="mob-menu-list__social-item">LinkedIn</li>
+            </ul>
+          </div>
         </div>
       </div>
+
     </div>
   </header>
   <!-- /HEADER -->
@@ -214,11 +217,6 @@
               <source
                 srcset="./images/team/frontend-developer/mobile-frontend-developer.img.jpg 1x, ./images/team/frontend-developer/desktop-frontend-developer@2x.jpg 2x"
                 media="(min-width: 480px)">
-
-              <!-- <source
-                srcset="./images/team/frontend-developer/desktop-frontend-developer.jpg 1x, ./images/team/frontend-developer/desktop-frontend-developer@2x.jpg 2x"
-                media="(min-width: 280px)"> -->
-
               <img src="./images/team/frontend-developer/desktop-frontend-developer.jpg" alt="фото Ольги">
             </picture>
             <div class="item-team__content">

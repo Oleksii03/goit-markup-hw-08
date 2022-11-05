@@ -26,7 +26,8 @@
 }
 
 .mob-menu__btn {
-  padding: 5px;
+  padding: 0;
+  line-height: 0;
 }
 
 .mob-menu__btn_open {
@@ -45,10 +46,14 @@
   }
 }
 
+.mob-menu_container {
+  position: relative;
+}
+
 .mob-menu__btn_close {
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 20px;
+  right: 25px;
 
   display: flex;
   align-items: center;
